@@ -6,7 +6,7 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-@app.route('/')
+@app.route('/congratulations8march.herokuapp.com/wishes')
 def wishes():
 	return render_template('wishes.html')
 
